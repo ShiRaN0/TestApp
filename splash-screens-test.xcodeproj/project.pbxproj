@@ -11,6 +11,7 @@
 		5B7F85BD2817C2C60099D74C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F85BC2817C2C60099D74C /* ContentView.swift */; };
 		5B7F85BF2817C2C90099D74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F85BE2817C2C90099D74C /* Assets.xcassets */; };
 		5B7F85C22817C2C90099D74C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F85C12817C2C90099D74C /* Preview Assets.xcassets */; };
+		5D2A02D22817D29C00A3FA89 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A02D12817D29C00A3FA89 /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5B7F85BC2817C2C60099D74C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B7F85BE2817C2C90099D74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B7F85C12817C2C90099D74C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D2A02D12817D29C00A3FA89 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				5B7F85BA2817C2C60099D74C /* splash_screens_testApp.swift */,
+				5D2A02D12817D29C00A3FA89 /* LaunchScreen.swift */,
 				5B7F85BC2817C2C60099D74C /* ContentView.swift */,
 				5B7F85BE2817C2C90099D74C /* Assets.xcassets */,
 				5B7F85C02817C2C90099D74C /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				5B7F85BD2817C2C60099D74C /* ContentView.swift in Sources */,
 				5B7F85BB2817C2C60099D74C /* splash_screens_testApp.swift in Sources */,
+				5D2A02D22817D29C00A3FA89 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"splash-screens-test/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"splash-screens-test/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
