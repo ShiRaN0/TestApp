@@ -12,7 +12,7 @@ struct LaunchScreen: View {
     var body: some View {
         if isLoading {
             ZStack {
-                Color("Primary")
+                Color("MainColor")
                     .ignoresSafeArea()
                 Image("logo")
                     .resizable()
