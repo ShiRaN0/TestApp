@@ -14,22 +14,26 @@ struct LaunchScreen: View {
             ZStack {
                 Color("Primary")
                     .ignoresSafeArea()
-                Image("Logo")
+                Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
             }
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    withAnimation {
-                        isLoading = false
-                    }
-                }
+//            .onAppear {
+//                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+//                    withAnimation {
+//                        isLoading = false
+//                    }
+//                }
+//            }
+            .onTapGesture {
+                isLoading=false
             }
         } else {
             ContentView()
         }
     }
+
 }
 
 struct LaunchScreen_Previews: PreviewProvider {
