@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B682683281C0F1D0095F769 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B682682281C0F1D0095F769 /* TopView.swift */; };
 		5B7F85BB2817C2C60099D74C /* splash_screens_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F85BA2817C2C60099D74C /* splash_screens_testApp.swift */; };
 		5B7F85BD2817C2C60099D74C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F85BC2817C2C60099D74C /* ContentView.swift */; };
 		5B7F85BF2817C2C90099D74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F85BE2817C2C90099D74C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B682682281C0F1D0095F769 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		5B7F85B72817C2C60099D74C /* splash-screens-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splash-screens-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F85BA2817C2C60099D74C /* splash_screens_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash_screens_testApp.swift; sourceTree = "<group>"; };
 		5B7F85BC2817C2C60099D74C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				5B7F85BA2817C2C60099D74C /* splash_screens_testApp.swift */,
 				5D2A02D12817D29C00A3FA89 /* LaunchScreen.swift */,
 				5B7F85BC2817C2C60099D74C /* ContentView.swift */,
+				5B682682281C0F1D0095F769 /* TopView.swift */,
 				5B7F85BE2817C2C90099D74C /* Assets.xcassets */,
 				5B7F85C02817C2C90099D74C /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				5B7F85BD2817C2C60099D74C /* ContentView.swift in Sources */,
 				5B7F85BB2817C2C60099D74C /* splash_screens_testApp.swift in Sources */,
+				5B682683281C0F1D0095F769 /* TopView.swift in Sources */,
 				5D2A02D22817D29C00A3FA89 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

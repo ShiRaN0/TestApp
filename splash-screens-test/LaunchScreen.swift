@@ -31,11 +31,11 @@ struct LaunchScreen: View {
                 }
             }
             .onTapGesture {
-                
+              
                 isLoading=false
             }
         } else {
-            ContentView()
+            TopView()
         }
     }
     

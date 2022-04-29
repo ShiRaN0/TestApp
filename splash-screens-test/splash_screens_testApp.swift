@@ -11,8 +11,8 @@ import SwiftUI
 struct splash_screens_testApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
             LaunchScreen()
+           
         }
     }
 }
