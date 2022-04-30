@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct LaunchScreen: View {
-    @State private var isLoading = true
+    @State private var isLoading = false
     @State private var isPlayAnimation = false
     var body: some View {
-        if isLoading {
+  
             ZStack {
                 Color("MainColor")
                     .ignoresSafeArea()
@@ -20,23 +20,27 @@ struct LaunchScreen: View {
                     .aspectRatio(contentMode: .fit)
                     .padding()
                     .scaleEffect(isPlayAnimation ? 1.0:0.5)
-                    
+                //とりあえずロードが完了しているという体で
+                if isLoading{
+                    TopView()
+                }
             }
             .onAppear {
+                //拡大アニメーション用
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     
                     withAnimation(){
                         self.isPlayAnimation.toggle()
                     }
                 }
+               
+               
             }
             .onTapGesture {
               
-                isLoading=false
+                isLoading=true
             }
-        } else {
-            TopView()
-        }
+     
     }
     
 }

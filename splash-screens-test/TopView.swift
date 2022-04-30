@@ -7,9 +7,24 @@
 
 import SwiftUI
 
+
 struct TopView: View {
+    @State var opacity: Double = 0
     var body: some View {
-        Text("Top")
+        ZStack{
+        Color("MainColor")
+            .ignoresSafeArea()
+            Text("Top")
+                .font(.title)
+                .fontWeight(.medium)
+                .lineLimit(nil)
+        }.opacity(opacity)
+        .onAppear{
+            withAnimation(.linear(duration: 0.3)) {
+               
+                self.opacity = 1.0
+            }
+        }
     }
 }
 
